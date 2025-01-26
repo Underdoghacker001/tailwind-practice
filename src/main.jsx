@@ -7,9 +7,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // import About from './components/About.jsx'
 // import Contact from './components/Contact.jsx'
 
-const Home = lazy(() => wait(1000).then(() => import('./components/Home.jsx')))
-const About = lazy(() => wait(1000).then(() => import('./components/About.jsx')))
-const Contact = lazy(() => wait(1000).then(() => import('./components/Contact.jsx')))
+const Home = lazy(() => wait(0).then(() => import('./components/Home.jsx')))
+const About = lazy(() => wait(0).then(() => import('./components/About.jsx')))
+const Contact = lazy(() => wait(0).then(() => import('./components/Contact.jsx')))
 
 
 
